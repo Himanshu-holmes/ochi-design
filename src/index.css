@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "founders-grotesk";
+  src: url("/src/assets/FoundersGrotesk-Semibold.ttf");
+}
+
+@font-face {
+  font-family: "neue-montreal";
+  src: url("/src/assets/NeueMontreal-Regular.ttf");
+}
+
+.tilt {
+  clip-path: polygon(0 0, 100% 22%, 100% 100%, 0 83%);
+}
